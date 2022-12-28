@@ -251,6 +251,20 @@ ul {
     border: 1px solid #EEEEEE;
     width: 370px;
 }
+.skills-icon-block {
+    width: 270px;
+    height: 120px;
+    background-color: var(--button-color);
+    margin-bottom: 30px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    justify-content: center;
+    
+    
+}
 
 .section-skills h3 {
     font-family: 'Roboto';
