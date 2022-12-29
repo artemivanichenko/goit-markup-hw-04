@@ -91,6 +91,7 @@ ul {
     display: flex;
     align-items: center;
     border-bottom: 1px solid var(--button-color);
+    
 
 }
 .header-container {
@@ -131,6 +132,7 @@ ul {
     letter-spacing: 0.02em;
     list-style: none;
     padding-left: 93px;
+    
 }
 .header-btn-black{
     color:var(--body-color);
@@ -140,28 +142,30 @@ ul {
 .header-btn{
     color:var(--accent-color);
     background-color: var(--primary-white-color);
-    padding-left: 93px;
+    padding-left: 50px;
     
 }
 .header-contact{
     margin-left: auto;
-   
+    /* display: flex;
+    align-items: center; */
 }
-
 .contact-list{
     color:var(--second-color);
     margin-left: 50px;
-    display: flex;
-    align-items: center;
-    fill: var(--grey-color);
-    display: flex;
-    align-items: center;
+    fill: var(--second-color);
+    
+    
 }
 .contact-list:nth-child(1){
     margin-left: 0px;
 }
 .contact-icon {
     margin-right: 10px;
+}
+.header-grey{
+    display: flex;
+    align-items: center;
 }
 .header-grey:hover,
 .header-grey:focus{
