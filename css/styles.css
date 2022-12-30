@@ -83,7 +83,8 @@ ul {
         display: flex;
 } 
 .indent {
-    padding-top: 94px;   
+    padding-top: 94px; 
+    padding-bottom: 94px;  
 }
 
                 /* header */
@@ -149,19 +150,22 @@ ul {
 .header-contact{
     margin-left: auto;
 }
-.header-nav-position {
+/* .item{
     position: relative;
     
 }
-/* .nav-position-action {
-     opacity: 1;
+.header-nav-action {
+    display: inline-block;
     position: absolute;
-
+    content: "";
+    height: 11px;
+    width: 100%;
+    opacity: 1;
     border-radius: 2px;
     background-color: var(--accent-color);
     bottom: 0;
-    left: 0;
-    transform: translate(-100%);
+    left: 0; 
+    outline: 2px solid olive;
 
 } */
 
@@ -262,8 +266,6 @@ ul {
     font-size: 18px;
     line-height: 2;
     font-style:normal;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .main-btn {
     gap: 8px;
@@ -361,11 +363,11 @@ display: block;
     background-position: center;
     justify-content: center;
 }
-.skills-item {
+.skills {
     display: flex;
     
 }
-.item {
+.skills-item {
     margin-right: 30px;
 }
 .item:last-child {
